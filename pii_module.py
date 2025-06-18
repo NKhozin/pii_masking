@@ -13,9 +13,9 @@ import cv2
 import ast
 import re
 
-pytesseract.pytesseract.tesseract_cmd = 'C:/Program Files/Tesseract-OCR/tesseract.exe'
+pytesseract.pytesseract.tesseract_cmd = 'Tesseract-OCR/tesseract.exe'
 
-font_path = "C:/Users/User/Documents/VKR/ner/final_scripts/font/Arial.ttf"
+font_path = "font/Arial.ttf"
 
 colors = {
     "ORG": "#A9A9A9",        # серый — организация
